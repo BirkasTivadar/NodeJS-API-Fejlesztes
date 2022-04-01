@@ -1,0 +1,16 @@
+{
+  "name": "NodeJS-API-Fejlesztes",
+  "version": "1.0.0",
+  "description": "## Prerequisites * Node.js - Download and Install [Node.js](http://www.nodejs.org/download/). * MongoDB - Download and Install [MongoDB](http://www.mongodb.org/downloads) - Make sure it's running on the default port (27017).",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
