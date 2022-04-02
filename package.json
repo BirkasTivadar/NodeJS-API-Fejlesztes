@@ -4,7 +4,11 @@
     "description": "## Prerequisites * Node.js - Download and Install [Node.js](http://www.nodejs.org/download/). * MongoDB - Download and Install [MongoDB](http://www.mongodb.org/downloads) - Make sure it's running on the default port (27017).",
     "main": "src/index.js",
     "dependencies": {
-        "express": "^4.17.3"
+        "body-parser": "^1.19.2",
+        "express": "^4.17.3",
+        "http-errors": "^2.0.0",
+        "morgan": "^1.10.0",
+        "winston": "^3.6.0"
     },
     "devDependencies": {},
     "scripts": {
