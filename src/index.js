@@ -8,6 +8,8 @@ const port = 3000;
 
 app.use(morgan('combined', { stream: logger.stream }));
 
+// app.use('/images', express.static('./images')); // miután átmozgattam az images mappát a publicba, már elég az alsó sor
+app.use(express.static('public'));
 
 app.use(bodyParser.json());
 app.use('/person', require('./controllers/person/routes')); // azt állítom be, hogy a /person-tól indul az url-ek viszonyítása, az alap: http://localhost:3000/person
